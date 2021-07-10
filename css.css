@@ -8,3 +8,11 @@ body {
 img {
   border-radius: 20%;
 }
+
+.social-icon {
+  width: 7vmin !important;
+}
+
+.social-icon:hover {
+  filter: invert(100%);
+}
