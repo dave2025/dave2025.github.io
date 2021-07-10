@@ -17,6 +17,11 @@ img {
   filter: invert(100%);
 }
 
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
 .tooltip-text {
   position: absolute;
   visibility: hidden;
