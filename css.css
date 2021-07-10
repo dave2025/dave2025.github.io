@@ -9,10 +9,10 @@ img {
   border-radius: 20%;
 }
 
-.social-icon {
-  width: 7vmin !important;
+.icon {
+  width: 4vmin !important;
 }
 
-.social-icon:hover {
+.icon:hover {
   filter: invert(100%);
 }
