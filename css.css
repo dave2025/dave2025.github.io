@@ -4,3 +4,7 @@ body {
 	  padding: 1em;
 	  line-height: 8em;
 	}
+
+img {
+  border-radius: 50%;
+}
