@@ -27,7 +27,7 @@ img {
   visibility: hidden;
   width: 100px;
   background: #2EBFD3;
-  color: #4624CF;
+  color: #0096FF;
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
@@ -63,12 +63,12 @@ img {
 }
 
 a:hover {
-  color: #11CB05;
+  color: #0096FF;
 }
 
 a {
   text-decoration: none;
-  color: #040404;
+  color: #0000FF;
 }
 
 
