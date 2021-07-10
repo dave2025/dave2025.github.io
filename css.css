@@ -26,8 +26,8 @@ img {
   position: absolute;
   visibility: hidden;
   width: 100px;
-  background: #6495ED;
-  color: #3651E6;
+  background: #2EBFD3;
+  color: #4624CF;
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
@@ -45,7 +45,7 @@ img {
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: transparent transparent #6495ED transparent;
+  border-color: transparent transparent #4624CF transparent;
 }
 
 .tooltip:hover .tooltip-text {
@@ -63,12 +63,12 @@ img {
 }
 
 a:hover {
-  color: #ffec64;
+  color: #4624CF;
 }
 
 a {
   text-decoration: none;
-  color: #793eaa;
+  color: ;
 }
 
 
