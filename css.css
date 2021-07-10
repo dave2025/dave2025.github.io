@@ -6,5 +6,6 @@ body {
 	}
 
 img {
+  float: left;
   border-radius: 70%;
 }
