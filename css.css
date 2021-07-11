@@ -10,7 +10,7 @@ html,body{margin:0;padding:0}
 
 .body {
 	  max-width: 800px;
-	  margin: auto;
+	  margin: 35px;
 	  padding: 10em;
 	  line-height: 1.8em;
 	  font-family: "Lora","Helvetica Neue",Helvetica,Arial,sans-serif;
