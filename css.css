@@ -12,6 +12,10 @@ html,body{margin:0;padding:0}
 	  font-family: "Lora","Helvetica Neue",Helvetica,Arial,sans-serif;
 	}
 
+.header{
+	font-family: "Lora";
+	}
+
 div#header{width:100%;overflow:hidden;background:#42DD92;}
 	div#header h1,div#menu{width:800px;margin:15px;text-align:left}
 	div#header h1{padding:85px 0 30px;color: #42DD92}
