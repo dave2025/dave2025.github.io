@@ -6,7 +6,7 @@
   font-size: 30px;
 }
 
-body {
+.body {
 	  max-width: 800px;
 	  margin: auto;
 	  padding: 1em;
@@ -14,7 +14,7 @@ body {
 	  font-family: "Lora","Helvetica Neue",Helvetica,Arial,sans-serif;
 	}
 
-img {
+.img {
   border-radius: 20%;
 }
 
