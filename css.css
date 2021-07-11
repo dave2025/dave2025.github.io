@@ -25,10 +25,10 @@
 }
 
 /* Style each tab content individually */
-#London {background-color:red;}
-#Paris {background-color:green;}
-#Tokyo {background-color:blue;}
-#Oslo {background-color:orange;}
+#Tab 1 {background-color:red;}
+#Tab 2 {background-color:green;}
+#Tab 3 {background-color:blue;}
+#Tab 4 {background-color:orange;}
 
 .header {
   padding: 10px;
