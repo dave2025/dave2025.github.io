@@ -1,116 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
- 	<title> Dave's home page</title>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ 		
+		<title> Dave's home page</title>
     
-	<div id="Tab 1" class="tabcontent">
-		<h1>Tab 1</h1>
-	</div>
-
-	<div id="Tab 2" class="tabcontent">
-		<h1>Tab 2</h1>
-	</div>
-
-	<div id="Tab 3" class="tabcontent">
-		<h1>Tab 3</h1>
-	</div>
-
-	<div id="Tab 4" class="tabcontent">
-		<h1>Tab 4</h1>
-	</div>
-
-<button class="tablink" onclick="openCity('Tab 1', this, 'red')" id="defaultOpen">Tab 1</button>
-<button class="tablink" onclick="openCity('Tab 2', this, 'green')">Tab 2</button>
-<button class="tablink" onclick="openCity('Tab 3', this, 'blue')">Tab 3</button>
-<button class="tablink" onclick="openCity('Tab 4', this, 'orange')">Tab 4</button>
-	  
-<script>
-function openCity(cityName,elmnt,color) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].style.backgroundColor = "";
-  }
-  document.getElementById(cityName).style.display = "block";
-  elmnt.style.backgroundColor = color;
-
-}
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-</script>	   
-	   
-	   
-	   
-	   
-	   
-	   
-	<link
-		rel="shortcut icon"
-		type="ico"
-		href="toad.ico"
- 	/>    
-
-	<link rel="stylesheet" href="css.css"> 
+		<link rel="stylesheet" href="css.css"> 
  
    </head>
-     
+	
    <body style="background-color:#99e6ff;">  
    <body>
-   
-	<div class="nav">
+	   
+	<div id="header">
+		<h1>Dave H.</h1>
+		<div id="menu">
+			<ul id="nav">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="tab2.html">Tab 2</a></li>
+				<li><a href="tab3.html">Tab 3</a></li>
+				<li><a href="tab4.html">Tab 4</a>
+				<li><a href="tab5.html">Tab 5</a></li>
+			</ul>
+		</div>		
+	</div>	   
+	   
+	   
+	   
 		
-	<div class="logo">
-        	<h2 style="font-family:Optima;">Welcome to my home page!</h2>
-	</div>	
-	
-	<div id="left">
-	
-	<div class="box"> 
-		<h2>Contact:</h2>
-		<p> Department of XXX <br>
-		Adress <br>
-		University<br>
-		City, State (zip code) <br>
-		email: <a href="mailto:dave2025@edu">dave2025@edu</a></p>
-	</div>
-	
-	<div class="box">
-		<h2>Links:</h2>
-		<ul>
-			<li><a href="http://www.xxx.edu">Department of xx</a></li>
-			<li><a href="http://www.xxx.edu">University</a></li>
-		</ul>
-	</div>
-	
-	<div class="box">
-		<div style="font-size: 0.8em;">Designed by <a href="http://www.twitter.com">Author</a></div>
-    	</div>
-		
- 	<div class="home-container">
 	<div id="Home">
+		
+		<div class="logo">
+        		<h2 style="font-family:Optima;">Welcome to my home page!</h2>
+		</div>	
+		
+	
  		<h1 style="text-align:center;font-family:Optima;">Dave H.</h1>
         
 		<br />
            
-		<p><a href="/"><img src="toad.png" alt="" style="max-width:40%;min-width:60px;float:left;margin-right:40px;" /></a></p>
+			<p><a href="/"><img src="toad.png" alt="" style="max-width:40%;min-width:60px;float:left;margin-right:40px;" /></a></p>
         
-		<p style="font-family:Candara;"> Hello! I am a <em>student</em> at the <a href="https://xxx.edu/" target="_blank">University's name</a>. I am also a <em>Volunteer</em> at <a href="https://www.xxx.org/" target="_blank">Organization</a>.</p> 
+			<p style="font-family:Candara;"> Hello! I am a <em>student</em> at the <a href="https://xxx.edu/" target="_blank">University's name</a>. I am also a <em>Volunteer</em> at <a href="https://www.xxx.org/" target="_blank">Organization</a>.</p> 
 	  
-		<p style="font-family:Candara;"> I am also a student at XXXXX XXXXXX. I am interested in oceans and marine life in general. XXXXXXX XXXXXXXXXXXX XXXX XXXX XXXXXXXXX XXXXXX XXXXXXXXXX XXXXX XXXXXXXXXX XXXX XXXX XXXXX XXXXXXXX XXXXXX XXX XXXXXX XXX </p>
+			<p style="font-family:Candara;"> I am also a student at XXXXX XXXXXX. I am interested in oceans and marine life in general. XXXXXXX XXXXXXXXXXXX XXXX XXXX XXXXXXXXX XXXXXX XXXXXXXXXX XXXXX XXXXXXXXXX XXXX XXXX XXXXX XXXXXXXX XXXXXX XXX XXXXXX XXX </p>
             
-		<strong>E-mail</strong>: <a href="mailto:dave2025@uni.edu" target="_blank">dave2025[at]uni[dot]edu</a> 
+			<strong>E-mail</strong>: <a href="mailto:dave2025@uni.edu" target="_blank">dave2025[at]uni[dot]edu</a> 
 
 		<br />
 		<br />        
   
 	</div>
+		
+		
+	  
       	
 	<div class="tooltip">
 		<a href="https://linkedin.com/" target="_blank">
@@ -126,6 +71,5 @@ document.getElementById("defaultOpen").click();
 		</a>
 	</div>  
       
-     </div>  
    </body>
 </html>
