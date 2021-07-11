@@ -12,7 +12,7 @@ html,body{margin:0;padding:0}
 	  font-family: "Lora","Helvetica Neue",Helvetica,Arial,sans-serif;
 	}
 
-div#header{width:50%;overflow:hidden;background:#42DD92;}
+div#header{width:100%;overflow:hidden;background:#42DD92;}
 	div#header h1,div#menu{width:800px;margin:auto;text-align:left}
 	div#header h1{padding: 15px 0 10px;color: #fff}
 
