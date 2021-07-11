@@ -6,6 +6,10 @@
 	  font-family: "Lora","Helvetica Neue",Helvetica,Arial,sans-serif;
 	}
 
+div#header{width:100%;overflow:hidden;background:#6666CC; /*#000066; #0066ff; #BBD9EE;*/}
+	div#header h1,div#menu{width:770px;margin:0 auto;text-align:left}
+	div#header h1{padding: 30px 0 20px;color: #fff}
+
 .img {
   border-radius: 40%;
 }
