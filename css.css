@@ -38,7 +38,7 @@ ul#nav li.activelink a,ul#nav li.activelink a:hover{background: #FFF;color: #003
 	}
 
 	#left.box {
-		padding: 1em;
+		padding: 0.5em;
 		margin: 0 0 1em 0;
 		background : #ccccff; 
 	}
