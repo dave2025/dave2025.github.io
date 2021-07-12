@@ -68,7 +68,7 @@ ul#nav li.activelink a,ul#nav li.activelink a:hover{background: #FFF;color: #003
   z-index: 1;
   top: 110%;
   left: 75%;
-  margin-left: -30px;
+  margin-left: -70px;
 }
 
 .tooltip-text::after {
