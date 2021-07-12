@@ -33,7 +33,7 @@ ul#nav li.activelink a,ul#nav li.activelink a:hover{background: #FFF;color: #003
 	#left {
 		float: right;
 		width: 20%;
-		margin: 0 0 10px 0;
+		margin: 0 0 0 0;
 		font-family: "Candara"
 	}
 
